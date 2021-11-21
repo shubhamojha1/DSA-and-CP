@@ -1,0 +1,25 @@
+XOR Equation
+
+https://www.codechef.com/NOV21B/problems/XOREQN
+
+
+Bitwise XOR of multiple bits
+- 0 if number of 1's are even
+- 1 if number of 1's are odd
+
+N = no. of elements is odd, means that if odd no. of 0s (bits) then even no. of 1s (bits)& vice versa
+
+to flip a bit, we add 1 to it. 
+0 + 1 = 1
+1 + 1 = 0 (carry 1)
+
+Algo:-
+
+XOR all given nos. = ans
+if i th bit of ans is set, then it contains odd number of 1s
+for(0-63)
+{
+if ith bit is set, we will add 1 to that ith bit ie left shift 1 by i bits (1<<i)
+// next prob is to manage the carryovers
+}
+
