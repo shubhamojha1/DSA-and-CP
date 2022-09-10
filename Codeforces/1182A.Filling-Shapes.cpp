@@ -1,6 +1,4 @@
-/*
-      https://codeforces.com/contest/1182/problem/A
-*/
+
 #include <iostream>
 #include <math.h>
 #define ll long long
