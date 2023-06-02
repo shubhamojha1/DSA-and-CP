@@ -1,7 +1,7 @@
 import java.util.*;
 //import java.text.*;
 
-public class Solution {
+public class reversort {
     
     public static void main(String[] args) {
 
